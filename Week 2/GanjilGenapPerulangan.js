@@ -3,7 +3,8 @@ while (angka <= 100) {
     if (angka % 3 === 0) {
         console.log(angka + '  Kelipatan 3')
     }
-   
+
+
     angka += 2
 }
 
