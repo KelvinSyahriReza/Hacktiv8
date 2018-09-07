@@ -16,14 +16,7 @@ console.log(fungsiPerkalian(5,6))
 
 console.log('<<<<<<<<<<<<<<<<<================>>>>>>>>>>>>>>>>>>')
 
-// var name = "Agus";
-// var age = 30;
-// var address = "Jln. Malioboro, Yogjakarta";
-// var hobby = "gaming";
 
-// var fullSentence = processSentence(name,age,address,hobby);
-//   return name,age,address,hobby
-// console.log(fullSentence(name,age,addres,hobby)); 
 
 function tampilkanAngka(angka = 1) {
   return angka
