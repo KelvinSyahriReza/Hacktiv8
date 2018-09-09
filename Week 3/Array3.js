@@ -1,4 +1,4 @@
-var input = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"];
+var input = ["0001", "Kelvin Syahri Reza", "Palembang", "30/07/1998", "Games"];
 var proses2 = input[3].split('/');
 var proses3 = proses2 [1];
 var e = proses2;
@@ -9,8 +9,8 @@ var d = [a, b, c]
 
 
 function dataHandling (input){
-  input.splice(4,1, "Pria", "SMA Internasional Metro")
-  input.splice(0,3, "0001", "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung")
+  input.splice(4,1, "Pria", "Hacktiv8")
+  input.splice(0,3, "0001", "Kelvin Syahri Reza", "Jawa Barat")
   console.log(input)
   if (proses3==1){
     console.log('Januari');
