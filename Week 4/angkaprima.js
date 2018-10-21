@@ -2,7 +2,9 @@ function angkaPrima(prima) {
     // you can only write your code here!
     var result = true;
     for(var i = 2; i < prima; i++) {
-      if (prima%i===0) result = false;
+      if (prima%i===0) 
+      
+      result = false;
     }
     return result;
   }

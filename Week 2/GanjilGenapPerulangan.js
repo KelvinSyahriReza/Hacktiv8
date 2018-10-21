@@ -1,8 +1,12 @@
+
 var angka = 1
-while (angka <= 100) {
+
+for ( angka = 0; angka < 100; angka++ ) {
     if (angka % 3 === 0) {
         console.log(angka + '  Kelipatan 3')
     }
+
+
 
 
     angka += 2

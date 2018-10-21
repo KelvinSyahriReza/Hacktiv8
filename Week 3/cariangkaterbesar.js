@@ -14,10 +14,7 @@ function pasanganTerbesar(num) {
       pasanganAngka.push(tampung)//hasil akan dikembalikan ke pasanganAngka
   
     }
-      pasanganAngka.sort(function(a,b){return b-a});
-      var hasil = parseInt(pasanganAngka[0])
-  
-      return hasil
+     
   
   }
   
